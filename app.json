@@ -1,7 +1,11 @@
 {
   "pages":[
-    "pages/recommend/recommend",
     "pages/newest/newest",
+    "pages/category/category",
+    "pages/mine/mine",
+    "pages/hot/hot",
+    "pages/recommend/recommend",
+  
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -10,6 +14,43 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "./images/newest_selected.png",
+        "iconPath": "./images/newest.png",
+        "pagePath": "pages/newest/newest",
+        "text": "最新"
+      },
+      {
+        "selectedIconPath": "./images/recommend_selected.png",
+        "iconPath": "./images/recommend.png",
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐"
+      },
+      {
+        "selectedIconPath": "./images/hot_selected.png",
+        "iconPath": "./images/hot.png",
+        "pagePath": "pages/hot/hot",
+        "text": "热门"
+      },
+      {
+        "selectedIconPath": "./images/category_selected.png",
+        "iconPath": "./images/category.png",
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "./images/mine_selected.png",
+        "iconPath": "./images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
