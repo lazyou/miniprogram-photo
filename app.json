@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/recommend/recommend",
     "pages/newest/newest",
     "pages/index/index",
     "pages/logs/logs"

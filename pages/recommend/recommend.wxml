@@ -1,0 +1,6 @@
+<view class="newest">
+  <view wx:for="{{images}}" wx:for-index="index" wx:for-item="item" class="item">
+    <image src="{{item.pic}}" mode="aspectFill" class="image" />
+    <view class="text" >{{item.text}}</view>
+  </view>
+</view>
